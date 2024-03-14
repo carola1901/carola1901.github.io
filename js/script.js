@@ -2,9 +2,9 @@ function validar() {
     let nome = document.getElementById("nome").value;
     let sobrenome = document.getElementById("sobrenome").value;
     let nascimento = document.getElementById("nascimento").value;
-    let matutino = document.getElementById("matutino").check;
-    let vespertino = document.getElementById("vespertino").check
-    let noturno = document.getElementById("noturno").check;
+    let matutino = document.getElementById("matutino").checked;
+    let vespertino = document.getElementById("vespertino").checked
+    let noturno = document.getElementById("noturno").checked;
 
 
     if(nome == ""){
